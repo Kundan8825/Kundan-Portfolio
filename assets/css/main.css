@@ -1619,3 +1619,6 @@ input, select, textarea {
 		#Projects h1 {
 			margin-left: 6rem;
 		}
+		.phone h4{
+			cursor:pointer;
+		}

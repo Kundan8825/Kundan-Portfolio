@@ -393,25 +393,7 @@
 					$window.on('load', function() {
 						$main._show(location.hash.substr(1), true);
 					});
-			  const video = document.getElementById("introVideo");
 
-				// Autoplay muted (browsers require muted autoplay)
-				video.play();
-
-				// After user interaction, unmute and play once with sound
-				document.addEventListener("click", function handler() {
-					video.muted = false;
-					video.currentTime = 0;
-					video.play();
-					document.removeEventListener("click", handler);
-				});
-
-				// When video ends, restart muted and loop it
-				video.addEventListener("ended", () => {
-					video.muted = true;
-					video.loop = true;
-					video.play();
-				});
 
 
 					

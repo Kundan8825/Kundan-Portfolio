@@ -1624,4 +1624,11 @@ input, select, textarea {
 			cursor:pointer;
 		}
 
-		
+.leetcode::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leetcode/leetcode-original.svg") no-repeat center;
+  background-size: contain;
+}		
